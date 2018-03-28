@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Molle:400i'); 
+*    {
+    font-family: 'Molle', cursive;
+    
+}
+
+#css-zen-garden {
+    
+    background-image: url(rainbow.png);
+    background-position: center;
+    background-size: contain;
+    max-width: 1200px;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    margin:3px;    
+}
+
+.page-wrapper   {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    grid-template-rows: 1fr;
+}
+
+.intro {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#zen-supporting {
+    grid-column-start: 4;
+    grid-column-end: 8;
+}
+
+.sidebar {
+    
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
+#zen-supporting {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    grid-template-rows: 1fr;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr ; 
+    grid-template-rows: 1fr;
+}
+
+footer {
+   padding-top: 3em; 
+   font-size: 2em;
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+
+.requirements {
+    grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+header {
+    margin: 5px    
+}
+
+p, h1, h2, h3 {
+    text-align: center;
+}
+
+#zen-summary {
+    margin: 5px
+}
+
+#zen-preamble {
+    margin: 5px
+}
+
+#zen-requirements {
+    margin: 5px
+}
+
+#zen-explanation {
+    margin: 5px
+}
+
+#zen-participation {
+    margin: 5px
+}
+
+#zen-benefits {
+    margin: 5px
+}
